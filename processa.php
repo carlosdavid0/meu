@@ -42,10 +42,10 @@
 
         
 
-        echo "<h1> Bem vindo $usuarios[$login] </h1>";
+        echo "<h1 class='text-success'> Bem vindo $usuarios[$login] </h1>";
 
     } else {
-       echo "<h1> Erro </h1>";
+       echo "<h1 class='text-danger'> Erro </h1>";
     }
 
 
