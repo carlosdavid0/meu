@@ -28,7 +28,7 @@
 
     $total = count($usuarios);
 
-    $login = false;
+    $login = -99;
 
     for ($i = 0; $i < $total; $i++) {
 
@@ -45,7 +45,7 @@
         echo "<h1> Bem vindo $usuarios[$login] </h1>";
 
     } else {
-        "<h1> Erro </h1>";
+       echo "<h1> Erro </h1>";
     }
 
 
